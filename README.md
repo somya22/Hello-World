@@ -23,6 +23,19 @@ git add -A
 git commit -m "Your commit message"
 git push --set-upstream origin new-branch
 ```
+   The `git add <file_name>` command lets you add a file to the staging area. You can think of the staging area as a step before the          commit process in git.
+   As long as a changeset is in the staging area, git allows you to edit it as you like.
+   The `git add -A` command however, finds all new and updated files everywhere throughout the project and add them to the staging area. 
+
+* Inspecting a repository
+
+ `git status`
+   
+   The git status command displays the state of the working directory and the staging area. It simply shows you what's been going on       with git add and git commit.
+
+`git log`
+    
+  Using the git log command, you can view the entire commit history using the default formatting.
 
 * Create a Pull Request by navigating to your forked repository and 
 clicking the <kbd><b>New pull request</b></kbd> button on your left-hand side of the page.
